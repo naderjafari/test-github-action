@@ -13,6 +13,10 @@
     <!-- Create the build directory structure used by compile -->
     <mkdir dir="${build}"/>
     
+    <echo message="Embed a line break:${line.separator}"/>
+    
+    <echo message="User is ${user.name}"/>
+    
   </target>
 
 </project>
