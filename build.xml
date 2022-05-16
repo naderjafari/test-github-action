@@ -15,7 +15,7 @@
     
     <echo message="Embed a line break:${line.separator}"/>
     
-    <echo message="User is ${user.name}"/>
+    <echo message="User is ${user.name} ${env.HOSTNAME}"/>
     
   </target>
 
