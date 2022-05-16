@@ -43,7 +43,7 @@ jobs:
         run: echo "$GITHUB_CONTEXT" ``
       - name: Set SAIN_DOCKER_VERSION env # this version comes from release-sain.properties
         run: >
-            echo "$(release.$USER.properties)"
+            echo release.$USER.properties
   build-ant:
       runs-on: ubuntu-latest
 
