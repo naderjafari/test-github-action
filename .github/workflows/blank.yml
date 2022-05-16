@@ -35,4 +35,4 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           echo "${{ github.actor }}"
-          echo "${{ user.name }}"
+          echo "${{ env.USER_NAME }}"
